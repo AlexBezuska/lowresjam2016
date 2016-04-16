@@ -1,6 +1,6 @@
 "use strict";
 
-var random = require("./random");
+var random = require("splat-ecs/lib/random");
 /**
 * Create bewtween qtyMin and qtyMax prefabs each time function is called.
 * game - pass the game in
@@ -116,10 +116,9 @@ function pointOnCircle(angle, radius) {
 */
 function centerEntityOnPoint(game, entity, point) {
   var size = game.entities.get(entity, "size");
-  game.entities.set(entity, "position",{
-    "x": point.x - (size.width / 2),
-    "y": point.y - (size.height / 2)
-  });
+  var position = game.entities.get(entity, "position");
+  position.x = point.x - (size.width / 2);
+  position.y = point.y - (size.height / 2);
 }
 
 /**

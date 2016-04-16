@@ -1,11 +1,86 @@
 {
-  "fire":{
+  "sparkle":{
+    "position":{
+      "z": 10
+    },
     "size": {
-      "width": 12,
-      "height": 12
+      "width": 10,
+      "height": 10
     },
     "image":{
-      "name": "fire.png"
+      "name": "sparkle.png"
+    }
+  },
+
+  "arrowRight":  {
+    "position": {
+      "x": 50,
+      "y": 5,
+      "z": 10
+    },
+    "size": {
+      "width": 9,
+      "height": 9
+    },
+    "image":{
+      "name": "arrowRight.png"
+    },
+    "constrainPosition": {
+      "id": 1
+    }
+  },
+
+  "arrowDown": {
+    "position": {
+      "x": 50,
+      "y": 5,
+      "z": 10
+    },
+    "size": {
+      "width": 9,
+      "height": 9
+    },
+    "image":{
+      "name": "arrowDown.png"
+    },
+    "constrainPosition": {
+      "id": 1
+    }
+  },
+
+  "arrowLeft":  {
+    "position": {
+      "x": 50,
+      "y": 5,
+      "z": 10
+    },
+    "size": {
+      "width": 9,
+      "height": 9
+    },
+    "image":{
+      "name": "arrowLeft.png"
+    },
+    "constrainPosition": {
+      "id": 1
+    }
+  },
+
+  "arrowUp":  {
+    "position": {
+      "x": 50,
+      "y": 5,
+      "z": 10
+    },
+    "size": {
+      "width": 9,
+      "height": 9
+    },
+    "image":{
+      "name": "arrowUp.png"
+    },
+    "constrainPosition": {
+      "id": 1
     }
   }
 }

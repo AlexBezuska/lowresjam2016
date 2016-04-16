@@ -73,6 +73,16 @@
         "device": "gamepad",
         "button": "left stick right"
       }
-    ]
+    ],  "start": [
+        {
+          "device": "keyboard",
+          "button": "9"
+        }
+      ],  "end": [
+          {
+            "device": "keyboard",
+            "button": "0"
+          }
+        ]
   }
 }

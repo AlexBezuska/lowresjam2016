@@ -1,113 +1,92 @@
 {
- "simulation": [
+	"simulation": [{
+		"name": "./systems/simulation/track-last-position",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/match-canvas-size",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/match-center-x",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/match-center-y",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/advance-timers",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/advance-animations",
+		"scenes": "all"
+	}, {
+		"name":  "./systems/simulation/lowRezCharacterController",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/constrain-position",
+		"scenes": "all"
+	}, {
+		"name": "./systems/simulation/scale",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/apply-movement-2d",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/apply-velocity",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/apply-friction",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/follow-parent",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/box-collider",
+		"scenes": "all"
+	}, {
+		"name": "./systems/simulation/collect",
+		"scenes": "all"
+	}, {
+		"name": "./systems/simulation/resolve-collisions",
+		"scenes": "all"
+	}, {
+		"name": "./systems/simulation/decay",
+		"scenes": "all"
+	}],
+	"renderer": [{
+		"name": "splat-ecs/lib/systems/apply-shake",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/clear-screen",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/viewport-move-to-camera",
+		"scenes": "all"
+	}, {
+		"name": "./systems/renderer/sample-renderer-system",
+		"scenes": ""
+	}, {
+		"name": "./systems/renderer/fill-solid-color",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/draw-image",
+		"scenes": "all"
+	}, {
+		"name": "./systems/renderer/text-box",
+		"scenes": "all"
+	}, {
+		"name": "./systems/renderer/stroke-color",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/viewport-reset",
+		"scenes": "all"
+	}, {
+		"name": "splat-ecs/lib/systems/draw-frame-rate",
+		"scenes": ""
+	},
   {
-   "name": "splat-ecs/lib/systems/match-canvas-size",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/advance-timers",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/advance-animations",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/control-player",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/apply-movement-2d",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/apply-velocity",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/apply-friction",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/follow-parent",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/box-collider",
-   "scenes": [
-    "main"
-   ]
-  },{
-   "name": "./systems/simulation/decay",
-   "scenes": [
-    "main"
-   ]
- },
-  {
-   "name": "./systems/simulation/sample-simulation-system",
-   "scenes": [
-    "main"
-   ]
-  }
- ],
- "renderer": [
-  {
-   "name": "splat-ecs/lib/systems/clear-screen",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/viewport-move-to-camera",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "./systems/renderer/sample-renderer-system",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/draw-image",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/draw-rectangles",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/viewport-reset",
-   "scenes": [
-    "main"
-   ]
-  },
-  {
-   "name": "splat-ecs/lib/systems/draw-frame-rate",
-   "scenes": [
-    "main"
-   ]
-  }
- ]
+		"name": "./systems/renderer/lines-to-collidables",
+		"scenes": "all"
+	},{
+		"name": "splat-ecs/lib/systems/revert-shake",
+		"scenes": "all"
+	}]
 }
